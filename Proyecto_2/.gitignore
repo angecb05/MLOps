@@ -1,0 +1,57 @@
+# ==========================================
+# AMBIENTES VIRTUALES (Python)
+# ==========================================
+# No queremos subir la carpeta con las librerías instaladas
+.venv/
+venv/
+env/
+bin/
+lib/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+build/
+develop-eggs/
+
+# ==========================================
+# DATOS (Tablas y archivos pesados)
+# ==========================================
+# Excluimos carpetas comunes de datos
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Excluimos extensiones específicas de tablas y bases de datos
+*.csv
+*.xlsx
+*.xls
+*.json
+*.sql
+*.sqlite
+*.parquet
+*.feather
+*.sav
+*.dta
+
+# ==========================================
+# JUPYTER NOTEBOOKS
+# ==========================================
+# Archivos temporales de Checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ==========================================
+# CONFIGURACIÓN Y SEGURIDAD
+# ==========================================
+# Archivos de variables de entorno (donde guardas contraseñas/API keys)
+.env
+.flaskenv
+
+# ==========================================
+# SISTEMA OPERATIVO
+# ==========================================
+.DS_Store
+Thumbs.db
